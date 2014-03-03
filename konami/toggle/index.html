@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>konami</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<style type='text/css'>
+  #konami { display: none;}
+  
+</style>  
+<body>
+  
+  <h1>hello everyone</h1> 
+  <div id='konami'>
+  <h3>hello gamers</h3>
+</div>  
+<script type='text/javascript'>
+
+if ( window.addEventListener ) {  
+  var state = 0, konami = "38,38,40,40,37,39,37,39,66,65", heap=[];
+  window.addEventListener("keydown", function(e) {  
+    heap.push(e.keyCode);
+   if(heap.slice(-10).join(",")==konami ){    
+  var elms=document.getElementById("konami").style
+       elms.display=(elms.display=="block")?"none":"block";
+   }
+    }, true);  
+}
+
+</script>
+</body>
+</html>
