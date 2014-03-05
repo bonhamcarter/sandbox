@@ -1,0 +1,220 @@
+#blue-wrap {
+margin-left: -500px;
+top: -100px;
+width: 400px;
+}
+#radio-blue:checked ~ .svgWrap #bluebaseclip {
+-webkit-animation-name: bluebasemask;
+-moz-animation-name: bluebasemask;
+-ms-animation-name: bluebasemask;
+-o-animation-name: bluebasemask;
+animation-name: bluebasemask;
+
+-webkit-animation-duration: 1.3s;
+-moz-animation-duration: 1.3s;
+-ms-animation-duration: 1.3s;
+-o-animation-duration: 1.3s;
+animation-duration: 1.3s;
+
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50px 50px;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-ms-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+
+}
+.svgWrap #bluetopclip {
+-webkit-transform:translateY(-628px)}
+#radio-blue:checked ~ .svgWrap #bluetopclip {
+-webkit-animation-name: bluemoveleft;
+-moz-animation-name: bluemoveleft;
+-ms-animation-name: bluemoveleft;
+-o-animation-name: bluemoveleft;
+animation-name: bluemoveleft;
+
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-animation-duration: 2s;
+-o-animation-duration: 2s;
+animation-duration: 2s;
+
+-webkit-animation-delay:1s;
+
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50px 50px;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-ms-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+.iphone-blue #bluecamera {
+opacity:0;
+-webkit-transition: opacity 0.3s ease;
+-moz-transition: opacity 0.3s ease;
+-o-transition: opacity 0.3s ease;
+-ms-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+}
+#radio-blue:checked ~ .svgWrap #bluecamera {
+opacity:1;
+-webkit-transition: opacity 0.3s ease;
+-moz-transition: opacity 0.3s ease;
+-o-transition: opacity 0.3s ease;
+-ms-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+-webkit-transition-delay:1.7s;
+-moz-transition-delay:1.7s;
+-o-transition-delay:1.7s;
+-ms-transition-delay:1.7s;
+transition-delay:1.7s;
+}
+.iphone-blue #bluespeaker {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-blue:checked ~ .svgWrap #bluespeaker {
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:1.8s;
+-moz-transition-delay:1.8s;
+-o-transition-delay:1.8s;
+-ms-transition-delay:1.8s;
+transition-delay:1.8s;
+}
+#blue-wrap .bluescreen {
+-webkit-transform: translate3d(0,0,0);
+position: absolute;
+z-index:3;
+top: 86px;
+left: 53px;
+opacity:0;
+background: url(../images/screenblue.png);
+background-repeat:no-repeat;
+background-size: 192px 465px; 
+width: 192px; 
+height: 465px;
+background-color: rgba(0,0,0,0);
+overflow: hidden !important;
+border: none;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-blue:checked ~ #blue-wrap .bluescreen {
+opacity:1;
+-webkit-transition: opacity .7s ease;
+-moz-transition: opacity 0.7s ease;
+-o-transition: opacity 0.7s ease;
+-ms-transition: opacity 0.7s ease;
+transition: opacity 0.7s ease;
+-webkit-transition-delay:2.33s;
+-moz-transition-delay:2.33s;
+-o-transition-delay:2.33s;
+-ms-transition-delay:2.33s;
+transition-delay:2.33s;
+}
+#blue-wrap #bluebuttons {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-blue:checked ~ .svgWrap #bluebuttons {
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:1.8s;
+-moz-transition-delay:1.8s;
+-o-transition-delay:1.8s;
+-ms-transition-delay:1.8s;
+transition-delay:1.8s;
+}
+#blue-wrap .bluereflection {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-blue:checked ~ .svgWrap .bluereflection {
+opacity:1;
+-webkit-transition: opacity 1s ease;
+-moz-transition: opacity 1s ease;
+-o-transition: opacity 1s ease;
+-ms-transition: opacity 1s ease;
+transition: opacity 1s ease;
+-webkit-transition-delay:1s;
+}
+#blue-wrap #bluehomebutton {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-blue:checked  ~ .svgWrap #bluehomebutton {
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:2.3s;
+-moz-transition-delay:2.3s;
+-o-transition-delay:2.3s;
+-ms-transition-delay:2.3s;
+transition-delay:2.3s;
+}
+/*KEYFRAMES*/
+@-webkit-keyframes bluebasemask {
+0% { -webkit-transform: translateY(630px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes bluebasemask {
+0% {-moz-transform: translateY(630px);}
+100% {-moz-transform: translateY(0px);}
+}
+@keyframes bluebasemask {
+0% {transform: translateY(630px);}
+100% {transform: translateY(0px);}
+}
+@-webkit-keyframes bluemoveleft {
+0% {-webkit-transform: translateY(-628px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes bluemoveleft {
+0% {-webkit-transform: translateY(-628px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@keyframes bluemoveleft {
+0% { -webkit-transform: translateY(-628px);}
+100% { -webkit-transform: translateY(0px);}
+}

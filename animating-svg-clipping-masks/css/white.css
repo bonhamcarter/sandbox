@@ -1,0 +1,220 @@
+#white-wrap {
+margin-left: -500px;
+top: -100px;
+width: 400px;
+}
+#radio-white:checked ~ .svgWrap #whitebaseclip {
+-webkit-animation-name: whitebasemask;
+-moz-animation-name: whitebasemask;
+-ms-animation-name: whitebasemask;
+-o-animation-name: whitebasemask;
+animation-name: whitebasemask;
+
+-webkit-animation-duration: 1.3s;
+-moz-animation-duration: 1.3s;
+-ms-animation-duration: 1.3s;
+-o-animation-duration: 1.3s;
+animation-duration: 1.3s;
+
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50px 50px;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-ms-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+
+}
+.svgWrap #whitetopclip {
+-webkit-transform:translateY(-628px)}
+#radio-white:checked ~ .svgWrap #whitetopclip {
+-webkit-animation-name: whitemoveleft;
+-moz-animation-name: whitemoveleft;
+-ms-animation-name: whitemoveleft;
+-o-animation-name: whitemoveleft;
+animation-name: whitemoveleft;
+
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-animation-duration: 2s;
+-o-animation-duration: 2s;
+animation-duration: 2s;
+
+-webkit-animation-delay:1s;
+
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50px 50px;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+
+-webkit-animation-fill-mode: forwards;
+-moz-animation-fill-mode: forwards;
+-ms-animation-fill-mode: forwards;
+-o-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+.iphone-white #whitecamera {
+opacity:0;
+-webkit-transition: opacity 0.3s ease;
+-moz-transition: opacity 0.3s ease;
+-o-transition: opacity 0.3s ease;
+-ms-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+}
+#radio-white:checked ~ .svgWrap #whitecamera {
+opacity:1;
+-webkit-transition: opacity 0.3s ease;
+-moz-transition: opacity 0.3s ease;
+-o-transition: opacity 0.3s ease;
+-ms-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+-webkit-transition-delay:1.7s;
+-moz-transition-delay:1.7s;
+-o-transition-delay:1.7s;
+-ms-transition-delay:1.7s;
+transition-delay:1.7s;
+}
+.iphone-white #whitespeaker {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-white:checked ~ .svgWrap #whitespeaker {
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:1.8s;
+-moz-transition-delay:1.8s;
+-o-transition-delay:1.8s;
+-ms-transition-delay:1.8s;
+transition-delay:1.8s;
+}
+#white-wrap .whitescreen {
+-webkit-transform: translate3d(0,0,0);
+position: absolute;
+z-index:3;
+top: 86px;
+left: 33px;
+opacity:0;
+background: url(../images/screenwhite.png);
+background-repeat:no-repeat;
+background-size: 192px 466px; 
+width: 192px; 
+height: 466px;
+background-color: rgba(0,0,0,0);
+overflow: hidden !important;
+border: none;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-white:checked ~ #white-wrap .whitescreen {
+opacity:1;
+-webkit-transition: opacity .7s ease;
+-moz-transition: opacity 0.7s ease;
+-o-transition: opacity 0.7s ease;
+-ms-transition: opacity 0.7s ease;
+transition: opacity 0.7s ease;
+-webkit-transition-delay:2.33s;
+-moz-transition-delay:2.33s;
+-o-transition-delay:2.33s;
+-ms-transition-delay:2.33s;
+transition-delay:2.33s;
+}
+#white-wrap #whitebuttons {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-white:checked ~ .svgWrap #whitebuttons{
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:1.8s;
+-moz-transition-delay:1.8s;
+-o-transition-delay:1.8s;
+-ms-transition-delay:1.8s;
+transition-delay:1.8s;
+}
+#white-wrap .whitereflection {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-white:checked ~ .svgWrap .whitereflection {
+opacity:1;
+-webkit-transition: opacity 1s ease;
+-moz-transition: opacity 1s ease;
+-o-transition: opacity 1s ease;
+-ms-transition: opacity 1s ease;
+transition: opacity 1s ease;
+-webkit-transition-delay:1s;
+}
+#white-wrap #whitehome {
+opacity:0;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+}
+#radio-white:checked ~ .svgWrap #whitehome {
+opacity:1;
+-webkit-transition: opacity 0.4s ease;
+-moz-transition: opacity 0.4s ease;
+-o-transition: opacity 0.4s ease;
+-ms-transition: opacity 0.4s ease;
+transition: opacity 0.4s ease;
+-webkit-transition-delay:2.3s;
+-moz-transition-delay:2.3s;
+-o-transition-delay:2.3s;
+-ms-transition-delay:2.3s;
+transition-delay:2.3s;
+}
+/*KEYFRAMES*/
+@-webkit-keyframes whitebasemask {
+0% { -webkit-transform: translateY(630px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes whitebasemask {
+0% {-moz-transform: translateY(630px);}
+100% {-moz-transform: translateY(0px);}
+}
+@keyframes whitebasemask {
+0% {transform: translateY(630px);}
+100% {transform: translateY(0px);}
+}
+@-webkit-keyframes whitemoveleft {
+0% {-webkit-transform: translateY(-628px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes whitemoveleft {
+0% {-webkit-transform: translateY(-628px);}
+100% {-webkit-transform: translateY(0px);}
+}
+@keyframes whitemoveleft {
+0% { -webkit-transform: translateY(-628px);}
+100% { -webkit-transform: translateY(0px);}
+}
