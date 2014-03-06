@@ -25,6 +25,11 @@ body {
 	background: #1E1E1E url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIUlEQVQYV2P8+vWrJAMRgBGkkJub+zkhtaMK8YYQ0cEDABxGJwNr5yClAAAAAElFTkSuQmCC);
 }
 
+#synth {
+
+	
+}
+
 #synth-pad:hover {
 	cursor: crosshair;
 }
