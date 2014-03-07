@@ -3,7 +3,7 @@ var game = new Phaser.Game(400, 490, Phaser.AUTO, 'game_div');
 var main_state = {
 
     preload: function() { 
-        this.game.stage.backgroundColor = '#71c5cf';
+        this.game.stage.backgroundColor = '#ffff00';
         this.game.load.image('bird', 'assets/bird.png');  
         this.game.load.image('pipe', 'assets/pipe.png');      
 
@@ -63,6 +63,9 @@ var main_state = {
         // Set the alive flag to false
         this.bird.alive = false;
 
+
+
+
         // Prevent new pipes from apearing
         this.game.time.events.remove(this.timer);
 
@@ -94,6 +97,32 @@ var main_state = {
         this.score += 1;
         this.label_score.content = this.score;  
     },
+
+
+    showFinalScore: function () {
+        var text = this.score >= this.highScore ? this.labelHighScore : this.labelScore;
+        var otherText = text === this.labelScore ? this.labelHighScore : this.labelScore;
+
+        if (text.moveScore) {
+            text.moveScore.stop();
+        }
+
+        var style = text.style;
+        style.font = '80px Arial';
+        text.setStyle(style);
+
+        text.game.add.tween(text).to({
+                x: 200 - ((text.width + 40) / 2),
+                y: 245 - ((text.height + 40) / 2)
+            }, 150, Phaser.Easing.Quadratic.Out, true);
+
+        otherText.game.add.tween(otherText).to({
+                alpha: 0
+            }, 50, Phaser.Easing.Linear.None, true);
+    }
+
+
+
 };
 
 game.state.add('main', main_state);  
