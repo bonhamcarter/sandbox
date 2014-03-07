@@ -7716,7 +7716,12 @@ var Phaser;
     })();
     Phaser.Game = Game;    
 })(Phaser || (Phaser = {}));
+
+
+
 (function () {
+    
+
     var myGame = new Phaser.Game(this, 'game', 800, 480, init, create, update);
     var player;
     var keyboard;
