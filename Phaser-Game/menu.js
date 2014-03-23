@@ -1,20 +1,27 @@
+var menu_state = {
+    create: function() {
+        // Call the 'start' function when pressing the spacebar
+        var space_key = this.game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+        space_key.onDown.add(this.start, this); 
 
-Game.Menu = function (game) { };
+        // Defining variables
+        var style = { font: "30px Arial", fill: "#ffffff" };
+        var x = game.world.width/2, y = game.world.height/2;
+        
+        // Adding a text centered on the screen
+        var text = this.game.add.text(x, y-50, "Press space to start", style);
+        text.anchor.setTo(0.5, 0.5); 
 
-Game.Menu.prototype = {
-	create: function () {
-		this.cursor = this.game.input.keyboard.createCursorKeys();
-		game.add.sprite(0, 0, 'bg');
+        // If the user already played
+        if (score > 0) {
+            // Display its score
+            var score_label = this.game.add.text(x, y+50, "score: " + score, style);
+            score_label.anchor.setTo(0.5, 0.5); 
+        }
+    },
 
-		label = game.add.text(w/2, h-50, 'press the UP arrow key to start', { font: '25px Arial', fill: '#fff' });
-		label.anchor.setTo(0.5, 0.5);
-
-		game.add.tween(label).to({ angle:1 }, 1000, Phaser.Easing.Linear.None)
-    	.to({ angle:-2 }, 1000, Phaser.Easing.Linear.None).loop().start();
-	},
-
-	update: function() {
-		if (this.cursor.up.isDown)
-			game.state.start('Play');
-	}
+    // Start the actual game
+    start: function() {
+        this.game.state.start('play');
+    }
 };
